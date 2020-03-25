@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+
 body{
   background-image: url('../image/background.jpg');
   background-size: cover;
@@ -17,6 +18,7 @@ body{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  height: 400px !important;
 }
 
 .main-titulo{
@@ -31,7 +33,7 @@ body{
   border: 10px solid #E87306;
   background: rgba(232, 115, 6, 0.5);
   border-radius: 5px;
-  height: 700px;
+  height: 100;
   display: flex;
   flex-flow: row wrap;
 }
